@@ -1,4 +1,7 @@
 Pre-Requisits:-
+
+[NOTE- ASSUMING Node-JS is already installed on your machine.]
+
 The following modules are required to execute the Node-JS file(s):
 1. Express
 2. Cookie-Parser
@@ -12,7 +15,7 @@ Please follow the following instructions carefully to execute the file(s):
     Step 2- Open up a browser and type the following in the address bar-
         127.0.0.1:8080/
 
-        Step 2.1- Visit "127.0.0.1:8080/" for task 1 output i.e "Hello World - Vrushabh".
+        Step 2.1- Visit "127.0.0.1:8080/" for task 1 output. It will display "Hello World - Vrushabh".
 
         Step 2.2- Visit "127.0.0.1:8080/authors" for task 2 output. This will fetch a list of authors and their posts and display a list of author names along with the total number of posts posted by them.
 
