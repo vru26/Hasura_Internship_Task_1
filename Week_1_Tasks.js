@@ -69,13 +69,15 @@ app.get('/authors', function(req, res) {
 //Task 3- Setting up a cookie.
 app.use(cookieParser());
 app.get('/setCookie', function(req, res) {
-    res.cookie('myCookie', '123456789', {maxAge : 12700}).send('');
+    //res.write("A Cookie has been set. Visit /getCookie to view its details.");
+    res.cookie('Vrushabh', '21', {maxAge : 212121}).send("A Cookie has been set. Visit /getCookie to view its details.");
 });
 
 
 //Task 4- Displaying the key values of the cookie set previously.
 app.get('/getCookie', function(req, res) {
-    res.write('' + req.cookies['myCookie']);
+    console.log(req.cookies['Vrushabh']);
+    res.send('' + req.cookies['Vrushabh']);
 });
 
 
